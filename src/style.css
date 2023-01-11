@@ -1,42 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
 }
-
-
-@font-face {
-    font-family: "Light", ;
-    src: url("@/assets/Font/Outfit-Light.ttf"),
-}
-
-@font-face {
-    font-family: "Regular", ;
-    src: url('@/assets/Font/Outfit-Regular.ttf');
-}
-
-@font-face {
-    font-family: "Medium", ;
-    src: url("@/assets/Font/Outfit-Medium.ttf");
-}
-
-@font-face {
-    font-family: "Semibold", ;
-    src: url("@/assets/Font/Outfit-SemiBold.ttf");
-}
-
-@font-face {
-    font-family: "Bold";
-    src: url("@/assets/Font/Outfit-Bold.ttf");
-}
-
-@font-face {
-    font-family: "ExtraBold";
-    src: url("@/assets/Font/Outfit-ExtraBold.ttf");
-}
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

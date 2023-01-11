@@ -6,7 +6,6 @@ const PropsDropdown = defineProps({
     type: Array,
     default: [],
   }
-
 })
 const active = ref<boolean>(false)
 let options = ref<any>([])
