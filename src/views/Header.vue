@@ -16,7 +16,7 @@
                 <div class="flex">
                     <div class="flex flex-col  mr-14">
                         <div class="flex items-center mb-3">
-                            <img class="mr-4" src="../assets/icons/Header/voice-search 1.svg" alt="">
+                            <img class="mr-4" src="../assets/icons/Header/voice-search1.svg" alt="">
                             <span>Tabiiy ovozda</span>
                         </div>
                         <div class="flex items-center">
