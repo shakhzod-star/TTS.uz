@@ -12,12 +12,12 @@ import Footer from '../views/Footer.vue'
   <div>
     <div class="bg-white">
       <Navbar />
-    <Header />
-    <Project />
-    <Telegram />
-    <Services />
-    <Target />
-    <Count />
+      <Header />
+      <Project />
+      <Telegram />
+      <Services />
+      <Target />
+      <Count />
     </div>
 
     <Footer />

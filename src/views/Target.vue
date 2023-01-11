@@ -8,30 +8,30 @@
             <div class="flex flex-col py-10 ml-[49px]">
                 <div class="flex mb-16">
                     <div class="flex mr-16">
-                        <img class="mr-4" src="@/assets/img/Target/target1.png" alt="">
+                        <img class="mr-4" src="/src/assets/img/Target/target1.png" alt="">
                         <p class="font-regular text-[18px] leadin-6 text-darkBlue max-w-[90px]">IOT & Robotech</p>
                     </div>
                     <div class="flex mr-16">
-                        <img class="mr-4" src="@/assets/img/Target/target2.png" alt="">
+                        <img class="mr-4" src="/src/assets/img/Target/target2.png" alt="">
                         <p class="font-regular text-[18px] leadin-6 text-darkBlue max-w-[125px]">Media & Xizmatlar</p>
                     </div>
                     <div class="flex">
-                        <img class="mr-4" src="@/assets/img/Target/target3.png" alt="">
+                        <img class="mr-4" src="/src/assets/img/Target/target3.png" alt="">
                         <p class="font-regular text-[18px] leadin-6 text-darkBlue">Smart Yordamchilar</p>
                     </div>
                 </div>
                 <div class="flex">
                     <div class="flex  mr-16">
-                        <img class="mr-4 " src="@/assets/img/Target/target4.png" alt="">
+                        <img class="mr-4 " src="/src/assets/img/Target/target4.png" alt="">
                         <p class="font-regular text-[18px] leadin-6 text-darkBlue max-w-[90px]">Ta’lim Sohalari</p>
                     </div>
 
                     <div class="flex mr-16">
-                        <img class="mr-4" src="@/assets/img/Target/target5.png" alt="">
+                        <img class="mr-4" src="/src/assets/img/Target/target5.png" alt="">
                         <p class="font-regular text-[18px] leadin-6 text-darkBlue max-w-[125px] ">Online Dasturlar</p>
                     </div>
                     <div class="flex">
-                        <img class="mr-4" src="@/assets/img/Target/target6.png" alt="">
+                        <img class="mr-4" src="/src/assets/img/Target/target6.png" alt="">
                         <p class="font-regular text-[18px] leadin-6 text-darkBlue max-w-[180px]">Ovozli Tarjimonlar sohalari</p>
                     </div>
                 </div>
