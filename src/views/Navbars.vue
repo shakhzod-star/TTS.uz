@@ -22,8 +22,8 @@ const languages: any = ref([
 
 <template>
     <div class="flex items-center pt-[28px] mb-4  justify-between max-w-[1440px] px-[120px] mx-auto">
-        <div>
-            <img src="/src/assets/img/Navbar/logo.png" alt="">
+        <div class="z-10">
+            <a class="cursor-pointer " href="/"><img src="/src/assets/img/Navbar/logo.png" alt=""></a>
         </div>
         <ul class="flex items-center  z-10">
             <li class=" cursor-pointer mr-[50px] before:content-[''] before:w-0 before:hover:w-full before:h-[2px] before:left-0 before:top-[calc(100%+2px)]

@@ -1,7 +1,7 @@
 <template>
     <div class="max-w-[1440px] mx-auto pl-[120px] pr-28 ">
         <div class="relative">
-            <div class="bg-littleBlue w-[4px] h-[56px] absolute top-[170px] left-[-780px] right-0 mx-auto"></div>
+            <div class="bg-littleBlue w-[4px] h-[56px] absolute top-[170px] -left-[calc(100%-400px)] right-0 mx-auto"></div>
             <div class="bg-littleBlue w-[4px] h-[56px] absolute top-0 left-0 right-0 mx-auto"></div>
             <div class="bg-littleBlue w-[4px] h-[56px] absolute top-[170px] left-[1180px] right-0 mx-auto"></div>
         </div>

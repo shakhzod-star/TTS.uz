@@ -1,5 +1,5 @@
 <template>
-    <div class="mx-auto max-w-[1440px]  px-[120px] mt-[100px]">
+    <div class="mx-auto max-w-[1200px]   mt-[100px]">
         <div class="flex justify-between pl-[71px] pr-[119px] pt-[38px] bg-[url('/src/assets/img/Telegram/blueBg.png')] bg-no-repeat object-cover ">
             <div class="flex flex-col relative ">
                 <h3 class="font-light text-4xl leading-[54px] text-white max-w-[622px]">Telegram kanalimizga <b class="font-extrabold text-[42px] leading-[60px]">obuna bo‘ling <br></b>
