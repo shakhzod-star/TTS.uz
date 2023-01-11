@@ -24,20 +24,22 @@ onMounted(() => {
     selectedLang.value = options.value[0]
   }
 })
+
+
 </script>
 <template>
   <div class="select-box">
     <div class="options-container" :class="active ? 'active' : ''">
       <div v-for="option in options" @click="clickOption(option)" :class="option != selectedLang ? 'option' : ''">
         <input v-if="option != selectedLang" type="radio" class="radio" name="category" />
-        <img v-if="option != selectedLang" class="w-[36px] h-[36px]" :src="option.img" alt="">
+        <img v-if="option != selectedLang" class="w-[36px] h-[36px]" :src="`/src/assets/img/Navbar/${option.img}.png`" alt="">
         <label v-if="option != selectedLang" for="automobiles" class="ml-3 text-darkBlue font-medium text-[18px] leading-[20px]">{{
           option.lang
         }}</label>
       </div>
     </div>
     <div class="selected" :class="active ? 'active' : ''" @click="selected">
-      <img class="w-[36px] h-[36px]" :src="selectedLang.img" alt="">
+      <img class="w-[36px] h-[36px]" :src="`/src/assets/img/Navbar/${selectedLang.img}.png`" alt="">
       <p class="ml-3 text-darkBlue font-medium text-[18px] leading-[20px]"> {{ selectedLang.lang }}</p>
     </div>
   </div>
