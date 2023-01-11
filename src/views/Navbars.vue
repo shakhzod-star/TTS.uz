@@ -4,16 +4,16 @@ import BaseSelect from '../components/BaseSelect/index.vue'
 
 const languages: any = ref([
     {
-        img: `uzb`,
+        img: `/src/assets/img/Navbar/uzb.png`,
         lang: 'O`zbekcha'
 
     },
     {
-        img: 'rus',
+        img: '/src/assets/img/Navbar/rus.png',
         lang: 'Русский '
     },
     {
-        img: 'eng',
+        img: '/src/assets/img/Navbar/eng.png',
         lang: 'English'
     }
 ])
@@ -43,7 +43,7 @@ const languages: any = ref([
                      before:rounded-[2px] before:absolute relative before:bg-gradientRed before:transition-[0.5s]"> <a
                     class="font-regular text-[18px] leading-5  text-darkBlue " href="">Statistika</a></li>
         </ul>
-        <div class="flex items-center ">
+        <div class="flex items-center">
             <div class="mr-4">
                 <BaseSelect :options="languages" />
             </div>
