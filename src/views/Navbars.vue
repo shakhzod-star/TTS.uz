@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import BaseSelect from '/src/components/BaseSelect/index.vue'
+import BaseSelect from '../components/BaseSelect/index.vue'
 
 const languages: any = ref([
     {
