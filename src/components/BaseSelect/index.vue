@@ -38,7 +38,7 @@ onMounted(() => {
       </div>
     </div>
     <div class="selected" :class="active ? 'active' : ''" @click="selected">
-      <img class="w-[36px] h-[36px]" :src="selectedLang.img" alt="">
+      <img class="w-[36px] h-[36px]" v-bind:src="selectedLang.img" alt="">
       <p class="ml-3 text-darkBlue font-medium text-[18px] leading-[20px]"> {{ selectedLang.lang }}</p>
     </div>
   </div>
