@@ -4,16 +4,16 @@ import BaseSelect from '../components/BaseSelect/index.vue'
 
 const languages: any = ref([
     {
-        img: new URL(`/src/assets/img/Navbar/uzb.png`).href,
+        img: `/src/assets/img/Navbar/uzb.png`,
         lang: 'O`zbekcha'
 
     },
     {
-        img: new URL('/src/assets/img/Navbar/rus.png').href,
+        img: '/src/assets/img/Navbar/rus.png',
         lang: 'Русский '
     },
     {
-        img: new URL('/src/assets/img/Navbar/eng.png').href,
+        img: '/src/assets/img/Navbar/eng.png',
         lang: 'English'
     }
 ])
