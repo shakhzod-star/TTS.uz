@@ -85,7 +85,7 @@ h2 {
 
 .selected::after {
   content: "";
-  background: url("../../assets/icons/Navbar/dropdown.svg");
+  background: url("@/assets/icons/Navbar/dropdown.svg");
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;

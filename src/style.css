@@ -8,32 +8,32 @@
 
 @font-face {
     font-family: "Light", ;
-    src: url("/src/assets/Font/Outfit-Light.ttf"),
+    src: url("@/assets/Font/Outfit-Light.ttf"),
 }
 
 @font-face {
     font-family: "Regular", ;
-    src: url('/src/assets/Font/Outfit-Regular.ttf');
+    src: url('@/assets/Font/Outfit-Regular.ttf');
 }
 
 @font-face {
     font-family: "Medium", ;
-    src: url("/src/assets/Font/Outfit-Medium.ttf");
+    src: url("@/assets/Font/Outfit-Medium.ttf");
 }
 
 @font-face {
     font-family: "Semibold", ;
-    src: url("/src/assets/Font/Outfit-SemiBold.ttf");
+    src: url("@/assets/Font/Outfit-SemiBold.ttf");
 }
 
 @font-face {
     font-family: "Bold";
-    src: url("/src/assets/Font/Outfit-Bold.ttf");
+    src: url("@/assets/Font/Outfit-Bold.ttf");
 }
 
 @font-face {
     font-family: "ExtraBold";
-    src: url("/src/assets/Font/Outfit-ExtraBold.ttf");
+    src: url("@/assets/Font/Outfit-ExtraBold.ttf");
 }
 
 

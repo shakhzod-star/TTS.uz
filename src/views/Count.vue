@@ -7,17 +7,17 @@ interface Counters {
 }
 const counters: any = ref([
     {
-        img: '/src/assets/img/Count/count1.png',
+        img: '@/assets/img/Count/count1.png',
         number: '648 000+',
         title: 'Foydalanuvchilar soni'
     },
     {
-        img: '/src/assets/img/Count/count2.png',
+        img: '@/assets/img/Count/count2.png',
         number: '90 mln+',
         title: 'Foydalanuvchilar soni'
     },
     {
-        img: '/src/assets/img/Count/count3.png',
+        img: '@/assets/img/Count/count3.png',
         number: '10+',
         title: 'Mijozlarlar soni'
     }

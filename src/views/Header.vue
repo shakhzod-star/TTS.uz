@@ -7,7 +7,7 @@
         </div>
         <div class="flex items-center justify-between ">
             <div class="mb-16 flex flex-col relative">
-                <img class="absolute w-[600px] h-[600px] top-[-191px] left-[-123px]" src="/src/assets/img/Header/bgHeader.png" alt="">
+                <img class="absolute w-[600px] h-[600px] top-[-191px] left-[-123px]" src="@/assets/img/Header/bgHeader.png" alt="">
                 <h1 class="text-darkBlue max-w-[448px]  mb-[33px] font-bold  text-[56px] leading-[59px]">Matnni ovozga o'girish</h1>
                 <p class="text-darkBlue max-w-[510px] mb-7">21-oktabr, O'zbek tiliga davlat tili maqomi
                     berilganligining 31 yillik munosabati bilan
@@ -16,29 +16,29 @@
                 <div class="flex">
                     <div class="flex flex-col  mr-14">
                         <div class="flex items-center mb-3">
-                            <img class="mr-4" src="../assets/icons/Header/voice-search1.svg" alt="">
+                            <img class="mr-4" src="@/assets/icons/Header/voice-search1.svg" alt="">
                             <span>Tabiiy ovozda</span>
                         </div>
                         <div class="flex items-center">
-                            <img class="mr-4" src="../assets/icons/Header/deadline.svg" alt="">
+                            <img class="mr-4" src="@/assets/icons/Header/deadline.svg" alt="">
                             <span>Yuqori tezlik</span>
                         </div>
                     </div>
                     <div class="flex flex-col">
                         <div class="flex items-center mb-3 ">
-                            <img class="mr-4" src="../assets/icons/Header/artificial-intelligence.svg" alt="">
+                            <img class="mr-4" src="@/assets/icons/Header/artificial-intelligence.svg" alt="">
                             <span>To'liq sun'iy intelekt asosida</span>
                         </div>
 
                         <div class="flex items-center">
-                            <img class="mr-4" src="../assets/icons/Header/voice.svg" alt="">
+                            <img class="mr-4" src="@/assets/icons/Header/voice.svg" alt="">
                             <span>2ta ovozda tinglash imkoniyati</span>
                         </div>
                     </div>
                 </div>
             </div>
             <div>
-                <img class="w-[600px] h-[600px]" src="../assets/img/Header/robot.png" alt="">
+                <img class="w-[600px] h-[600px]" src="@/assets/img/Header/robot.png" alt="">
             </div>
         </div>
     </div>
