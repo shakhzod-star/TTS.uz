@@ -3,7 +3,7 @@ import { onMounted,PropType,ref } from 'vue'
 const emit = defineEmits(['selectValue'])
 const PropsDropdown = defineProps({
   options: {
-    type: Array as PropType<string[]>,
+    type: Array as PropType<any[]>,
     default: [],
   }
 })
