@@ -8,7 +8,7 @@ const PropsDropdown = defineProps({
   }
 })
 const active = ref<boolean>(false)
-let options = ref<string[]>([])
+let options = ref<any[]>([])
 options.value = PropsDropdown.options
 const selectedLang = ref<any>('')
 function selected() {
