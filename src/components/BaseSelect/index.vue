@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
+import { onMounted,PropType,ref } from 'vue'
 const emit = defineEmits(['selectValue'])
 const PropsDropdown = defineProps({
   options: {
-    type: Array,
+    type: Array as PropType<string[]>,
     default: [],
   }
 })
 const active = ref<boolean>(false)
-let options = ref<any>([])
+let options = ref<string[]>([])
 options.value = PropsDropdown.options
 const selectedLang = ref<any>('')
 function selected() {
@@ -24,8 +24,6 @@ onMounted(() => {
     selectedLang.value = options.value[0]
   }
 })
-
-
 </script>
 <template>
   <div class="select-box">
@@ -56,7 +54,6 @@ h2 {
   flex-direction: column;
   position: relative;
 }
-
 .select-box .options-container {
   position: absolute;
   border: 1px solid #e3e3e3;
@@ -73,7 +70,6 @@ h2 {
   order: 1;
 
 }
-
 .selected {
   background: #fff;
   border-radius: 8px;
@@ -83,7 +79,6 @@ h2 {
   border-radius: 5px;
   order: 0;
 }
-
 .selected::after {
   content: "";
   background: url("/src/assets/icons/Navbar/dropdown.svg");

@@ -1,23 +1,21 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import BaseSelect from '../components/BaseSelect/index.vue'
-
 const languages: any = ref([
     {
-        img: `/src/assets/img/Navbar/uzb.png`,
+        img: `images/uzb.png`,
         lang: 'O`zbekcha'
 
     },
     {
-        img: '/src/assets/img/Navbar/rus.png',
+        img: 'images/rus.png',
         lang: 'Русский '
     },
     {
-        img: '/src/assets/img/Navbar/eng.png',
+        img: 'images/eng.png',
         lang: 'English'
     }
 ])
-
 </script>
 
 <template>
